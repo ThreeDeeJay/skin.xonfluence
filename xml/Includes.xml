@@ -3402,7 +3402,7 @@
             <control type="group" id="3">
                 <width>510</width>
                 <height>60</height>
-                <visible>System.CanPowerDown</visible>
+                <visible>none</visible>
                 <control type="image">
                     <description>background image</description>
                     <left>0</left>
