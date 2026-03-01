@@ -26,7 +26,7 @@
         <label2>Power Menu Shortcut</label2>
         <label>$LOCALIZE[13016]</label>
         <action>Powerdown()</action>
-        <visible>System.CanPowerDown</visible>
+        <visible>none</visible>
         <icon />
 		<thumb />
     </shortcut>
@@ -34,7 +34,7 @@
         <label2>Power Menu Shortcut</label2>
         <label>$LOCALIZE[13011]</label>
         <action>Suspend()</action>
-        <visible>System.CanSuspend</visible>
+        <visible>none</visible>
         <icon />
 		<thumb />
     </shortcut>
@@ -42,7 +42,7 @@
         <label2>Power Menu Shortcut</label2>
         <label>$LOCALIZE[13010]</label>
         <action>Hibernate()</action>
-        <visible>System.CanHibernate</visible>
+        <visible>none</visible>
         <icon />
 		<thumb />
     </shortcut>
@@ -50,7 +50,7 @@
         <label2>Power Menu Shortcut</label2>
         <label>$LOCALIZE[13013]</label>
         <action>Reset()</action>
-        <visible>System.CanReboot</visible>
+        <visible>none</visible>
         <icon />
 		<thumb />
     </shortcut>
@@ -105,7 +105,7 @@
         <icon />
 		<thumb />
         <visible>!System.HasAlarm(shutdowntimer)</visible>
-        <visible>System.CanPowerDown | System.CanSuspend | System.CanHibernate</visible>
+        <visible>none</visible>
     </shortcut>
     <shortcut>
         <label2>Power Menu Shortcut</label2>
