@@ -3567,7 +3567,7 @@
             <control type="group" id="8">
                 <width>510</width>
                 <height>60</height>
-                <visible>System.CanReboot</visible>
+                <visible>none</visible>
                 <control type="image">
                     <description>background image</description>
                     <left>0</left>
