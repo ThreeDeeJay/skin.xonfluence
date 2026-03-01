@@ -2055,7 +2055,7 @@
                 <onclick condition="Window.IsVisible(2114)">Skin.SetString($INFO[Window(Home).Property(UsrSelectBtn)].WidgetLayout,Small)</onclick>
 				<onclick>Skin.SetString($INFO[Window(Home).Property(UsrSelectBtn)].Label)</onclick>
                 <include>CloseMenuChoice</include>
-                <visible>System.CanPowerDown</visible>
+                <visible>none</visible>
                 <visible>String.IsEqual(Window.Property(MenuItemType),ShutDownMenu)</visible>
             </item>
             <item>
@@ -2075,7 +2075,7 @@
                 <onclick condition="Window.IsVisible(2114)">Skin.SetString($INFO[Window(Home).Property(UsrSelectBtn)].WidgetLayout,Small)</onclick>
 				<onclick>Skin.SetString($INFO[Window(Home).Property(UsrSelectBtn)].Label)</onclick>
                 <include>CloseMenuChoice</include>
-                <visible>System.CanSuspend</visible>
+                <visible>none</visible>
                 <visible>String.IsEqual(Window.Property(MenuItemType),ShutDownMenu)</visible>
             </item>
             <item>
@@ -2095,7 +2095,7 @@
                 <onclick condition="Window.IsVisible(2114)">Skin.SetString($INFO[Window(Home).Property(UsrSelectBtn)].WidgetLayout,Small)</onclick>
 				<onclick>Skin.SetString($INFO[Window(Home).Property(UsrSelectBtn)].Label)</onclick>
                 <include>CloseMenuChoice</include>
-                <visible>System.CanHibernate</visible>
+                <visible>none</visible>
                 <visible>String.IsEqual(Window.Property(MenuItemType),ShutDownMenu)</visible>
             </item>
             <item>
@@ -2115,7 +2115,7 @@
                 <onclick condition="Window.IsVisible(2114)">Skin.SetString($INFO[Window(Home).Property(UsrSelectBtn)].WidgetLayout,Small)</onclick>
 				<onclick>Skin.SetString($INFO[Window(Home).Property(UsrSelectBtn)].Label)</onclick>
                 <include>CloseMenuChoice</include>
-                <visible>System.CanReboot</visible>
+                <visible>none</visible>
                 <visible>String.IsEqual(Window.Property(MenuItemType),ShutDownMenu)</visible>
             </item>
             <!-- System Menu -->
